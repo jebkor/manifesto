@@ -17,4 +17,4 @@ If you have any questions, feel free to hit me up on twitter or open an issue in
 **Manifesto** © [jebkor](https://github.com/jebkor), Released under the [MIT](https://opensource.org/licenses/MIT) License.<br>
 Authored and maintained by @jebkor.
 
-> [jebkor.dk](https://jebkor.dk) · GitHub [@jebkor](https://github.com/jebkor) · Twitter [@jebkor_](https://twitter.com/jebkor_)
+> <a href="https://jebkor.dk" target="_blank">jebkor.dk</a> · GitHub <a href="https://github.com/jebkor" target="_blank">@jebkor</a> · Twitter <a href="https://twitter.com/jebkor_" target="_blank">@jebkor_</a>
