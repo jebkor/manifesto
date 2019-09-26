@@ -20,8 +20,3 @@ Here are some obligatory examples of SV:
 * **v1.6.9** - This means that the software is on the `9th` patch of the `6th` minor update to version 1
 * **v2.13.256** - To emphasize, this is the `256th` patch of the `13th` minor update to version 2
 
-
-
-
-
-
