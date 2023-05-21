@@ -1,4 +1,4 @@
-# Pull reuqest template
+# <Pull reuqest name>
 Firstly, give your pull request a short, easily recognizable name.
 After than, using the template below, you fill out the description of the pull request
 
