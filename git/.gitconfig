@@ -1,0 +1,94 @@
+[alias]
+	# Shortening aliases
+	# + commit message. Add all files and use the gitmessage template
+	ac = !git add -A && git commit
+	
+	# add and commit and add a message
+	save = !git add . -A && git commit -m
+
+	# + revised commit message. Amends the last commit message. Use in case of typos or accidental enter-hits
+	amd = !git add -A && git commit --amend -m 
+
+	# List local branches
+	bl = branch --format='%(HEAD) %(color:yellow)%(refname:short)%(color:reset) - %(color:red)%(objectname:short)%(color:reset) - %(contents:subject) %(color:green)(%(committerdate:relative)) [%(authorname)]' --sort=-committerdate
+
+	# list both local and remote branches
+	bla = branch -a
+
+	# Update the local list of remote branches
+	bu = remote update origin --prune
+	
+	# Switch to branch
+	co = checkout
+	
+	# Create a new branch
+	cb = checkout -b
+	
+	# Delete a branch
+	bd = branch -d
+
+	# List all branches merged into master or develop (exclude master and develop themselves)
+	merged = !git branch --merged | grep -v \"\\*\" | grep -v master | grep -v develop
+
+	# Delete merged local branches
+	dmerged = !git branch --merged | grep -v \"\\*\" | grep -v master | grep -v develop | xargs -n 1 git branch -d
+
+	# Reset all the things
+	fu = reset --hard
+	
+	# pushes the current branch to remote. It finds the current branch name by it self
+	done = "!git push -u origin $(git rev-parse --abbrev-ref HEAD)"
+	
+
+	# Logs commits in one line
+	lgo = log --color --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+
+	# Gets the current changes in a one line format
+	wtf = status -sb
+	
+	# Undo last commit !BE CAREFUL
+	undo = reset HEAD~1 --mixed
+
+
+	# Misc aliases - mostly used for fun
+	# Write out all the alias'
+	cheats = config --get-regexp ^alias. 
+
+	# See who made the most merges, ranked descending. Only used for fun
+	gud = shortlog -sn --no-merges
+	
+	# Print your username used in the git config
+	me = config user.name
+
+	dad = '!curl https://icanhazdadjoke.com/ && echo'
+
+
+
+
+	# Logs the commits in a graph, showing the paths merges and commits happens
+	# lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --oneline
+
+	
+[color]
+	ui = auto
+	
+[commit]
+	template = ~/.gitmessage
+
+[core]
+	editor = "nano -r 72"
+	sshCommand = C:/Windows/System32/OpenSSH/ssh.exe
+	
+[credential]
+	helper = wincred
+	
+[push]
+	default = upstream
+	
+[user]
+	name = jebkor
+	email = j.korsbakke+github@gmail.com
+	mail = j.korsbakke+github@gmail.com
+	
+[winUpdater]
+	recentlySeenVersion = 2.31.1.windows.1
