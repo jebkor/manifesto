@@ -1,0 +1,239 @@
+{
+  "editor.tokenColorCustomizations": {
+    "[Corduroy Darker]": {
+      "textMateRules": [
+        {
+          "name": "",
+          "scope": [
+            "keyword.control",
+            "storage.type"
+          ],
+          "settings": {
+            "fontStyle": "italic",
+            "foreground": "#457371"
+          }
+        },
+        {
+          "name": "",
+          "scope": [
+            "variable"
+          ],
+          "settings": {
+            "foreground": "#C9B6AD"
+          }
+        },
+        {
+          "name": "",
+          "scope": [
+            "entity.name.function"
+          ],
+          "settings": {
+            "foreground": "#D88A78"
+          }
+        },
+        {
+          "scope": [
+            "comment",
+            "entity.name.type.class",
+            "storage.modifier",
+            "support.class.builtin",
+            "constant.language",
+            "entity.other.attribute-name",
+            "entity.name.method"
+          ],
+          "settings": {
+            "fontStyle": "italic"
+          }
+        },
+        {
+          "name": "colorAdjustments",
+          "scope": [
+            "comment",
+            "punctuation.definition.comment"
+          ],
+          "settings": {
+            "foreground": "#AB8E9E89"
+          }
+        },
+        {
+          "scope": "keyword.other.dotenv",
+          "settings": {
+            "foreground": "#FF000000"
+          }
+        }
+      ]
+    },
+    "textMateRules": [
+      {
+        "scope": "keyword.other.dotenv",
+        "settings": {
+          "foreground": "#FF000000"
+        }
+      }
+    ]
+  },
+  "_css_": {},
+  "css.validate": true,
+  "_editor_": {},
+  "explorer.autoReveal": false,
+  "explorer.confirmDelete": false,
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.detectIndentation": false,
+  "editor.formatOnPaste": false, // testing this one to see if it's a blocker for productivity
+  "editor.formatOnType": false,
+  "editor.formatOnSave": false, //testing this one to see if it's a blocker for productivity
+  "editor.fontSize": 16,
+  "editor.lineHeight": 22,
+  "editor.letterSpacing": 0.2,
+  "editor.fontFamily": "'Operator Mono Lig Light', 'Operator Mono Lig Medium', monospace",
+  "editor.fontLigatures": "'zero', 'ss02', 'ss03', 'ss04', 'ss05', 'calt'",
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+  "editor.minimap.renderCharacters": false,
+  "editor.minimap.enabled": false,
+  "editor.minimap.maxColumn": 150,
+  "editor.renderControlCharacters": false,
+  "editor.smoothScrolling": true,
+  "editor.suggestSelection": "first",
+  "editor.tabCompletion": "on",
+  "editor.wordWrap": "on",
+  "editor.renderWhitespace": "trailing",
+  "window.titleBarStyle": "custom",
+  "files.associations": {
+    "*.css": "postcss"
+  },
+  
+  "_emmet_": {},
+  "emmet.includeLanguages": {
+    "javascript": "javascriptvue"
+  },
+  "_files_": {}, // testing this one to see if it's a blocker for productivity
+  "files.autoSaveDelay": 5000,
+  "files.eol": "\r\n",
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/node_modules": false,
+    "node_modules": false,
+  },
+  "_git_": {},
+  "git.confirmSync": false,
+  "git.enableSmartCommit": true,
+  "git.autofetch": true,
+  "gitlens.keymap": "alternate",
+  "gitlens.advanced.messages": {
+    "suppressCommitHasNoPreviousCommitWarning": false,
+    "suppressCommitNotFoundWarning": false,
+    "suppressFileNotUnderSourceControlWarning": false,
+    "suppressGitVersionWarning": false,
+    "suppressLineUncommittedWarning": false,
+    "suppressNoRepositoryWarning": false
+  },
+  "_indent-rainbow_": {},
+  "indentRainbow.colors": [
+    "rgba(16,16,16,0.1)",
+    "rgba(16,16,16,0.2)",
+    "rgba(16,16,16,0.3)",
+    "rgba(16,16,16,0.4)",
+    "rgba(16,16,16,0.5)",
+    "rgba(16,16,16,0.6)",
+    "rgba(16,16,16,0.7)",
+    "rgba(16,16,16,0.8)",
+    "rgba(16,16,16,0.9)",
+    "rgba(16,16,16,1.0)"
+  ],
+  "_javascript_": {},
+  "javascript.format.enable": true,
+  "javascript.validate.enable": false,
+  "js/ts.implicitProjectConfig.experimentalDecorators": true,
+  "javascript.format.insertSpaceBeforeFunctionParenthesis": false,
+  "prettier.singleQuote": true,
+  "_scss_": {},
+  "scss.validate": true,
+  "scssFormatter.singleQuote": true,
+  "search": {},
+  "search.exclude": {
+    "**/node_modules": false,
+    "node_modules": false,
+    "**/bower_components": true
+  },
+  "settings": {},
+  "settings.cycle": [
+    {
+      "id": "minimap", // must be unique
+      "overrideWorkspaceSettings": true,
+      "values": [
+        {
+          "editor.minimap.enabled": true
+        },
+        {
+          "editor.minimap.enabled": false
+        }
+      ]
+    }
+  ],
+  "html.format.enable": false,
+  "_window_": {},
+  "window.menuBarVisibility": "default",
+  "_workbench_": {},
+  "workbench.colorTheme": "Corduroy Darker",
+  "workbench.list.openMode": "doubleClick",
+  "workbench.editor.closeOnFileDelete": true,
+  "workbench.editor.enablePreview": false,
+  "workbench.editor.highlightModifiedTabs": true,
+  "workbench.colorCustomizations": {
+    "editorWhitespace.foreground": "#773e2288",
+    "editor.selectionBackground": "#F1A26D44",
+    "editor.selectionHighlightBackground": "#F1A26D44",
+    "statusBar.background": "#333333",
+    "statusBar.foreground": "#eaeaea88"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[scss]": {
+    "editor.defaultFormatter": "sibiraj-s.vscode-scss-formatter"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "HookyQR.beautify"
+  },
+  "[vue]": {
+    "editor.defaultFormatter": "Vue.volar"
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": false
+  },
+  "diffEditor.ignoreTrimWhitespace": false,
+  "extensions.ignoreRecommendations": false,
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.iconTheme": "city-lights-icons-vsc-light",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "vscode_custom_css.imports": [
+    "file://C:/Users/inoushii/Documents/vscode-style.css"
+  ],
+  "[python]": {
+    "editor.formatOnType": false
+  },
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "tabnine.experimentalAutoImports": true,
+  "[css]": {
+    "editor.defaultFormatter": "sibiraj-s.vscode-scss-formatter"
+  },
+  "volar.format.initialIndent": {
+    "typescript": true,
+    "css": true,
+    "scss": true
+  },
+  "editor.padding.top": 15
+}
