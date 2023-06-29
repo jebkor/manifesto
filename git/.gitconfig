@@ -41,7 +41,7 @@
 	
 
 	# Logs commits in one line
-	lgo = log --color --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+	lg = !git log --pretty=format:\"%C(magenta)%h%Creset -%C(red)%d%Creset %s %C(dim green)(%cr) [%an]\" --abbrev-commit -30
 
 	# Gets the current changes in a one line format
 	wtf = status -sb
